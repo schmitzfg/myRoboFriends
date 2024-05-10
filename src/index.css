@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: linear-gradient(to left, rgb(7, 40, 130) 0%, rgba(0,128,128,1) 100% )
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.card {
+  display: inline-block;
+  background-color: lightskyblue;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.searchbox {
+  padding: 5px;
+  color: rgb(179, 221, 247);;
+  margin: 0px;
+}
+
+.input {
+  padding: 1em;
+  background-color: rgb(179, 221, 247);
+}
+
+.app {
+  text-align: center;
+}
